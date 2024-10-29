@@ -1,0 +1,118 @@
+body{
+    background-color: rgba(5, 5, 79, 0.899);
+    color: aliceblue;
+}
+main{
+    background-color: skyblue;
+    text-align: left;
+    width: 35%;
+    height: 74vh;
+    float: left;
+    position: static;
+    clear: left;
+    display: inline-table;
+}
+h1{
+    font-family: cursive;
+    background-color: rgb(28, 139, 183);
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: larger;
+}
+.link{
+    text-align: center;
+    font-family: cursive;
+    background-color: rgb(28, 139, 183);
+}
+.name h1{
+    text-align: left;
+    font-family: cursive;
+    background-color: rgb(28, 139, 183);
+    width: fit-content;
+}
+hr{
+    float: left;
+    margin-top: -5px;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer {
+        background-color:skyblue;
+        text-align: center;
+        clear: both;
+}
+.feeling{
+    background-color: skyblue;
+    text-align: left;
+    width: 40%;
+    height: 100vh;
+    float: right;
+    position: static;
+    clear: right;
+    margin-top: -48%;
+    display: inline-table;
+}
+#photo img{width: 100%;}
+.feeling h1{
+    text-align: center;
+    color: black;
+    float: center;
+}
+.name{
+    width: 60%;
+    display: inline-table;
+}
+* {
+    box-sizing: border-box;
+  }
+  [class*="col-"] {
+    width: 100%;
+  }
+@media only screen and (min-width: 100px){
+        .col-1 {width: 100%;}
+        .col-2 {width: 100%;}
+ main{width: 100%;
+height: auto;}
+ .feeling{width: 100%;
+margin: auto;
+height: auto;}
+ img{width: 100%;}
+ h1{text-align: center;
+font-size: large;}
+.name{width: 100%;}
+hr{width: 100%;}
+.header{font-size: small;}
+}
+@media only screen and (min-width: 768px){
+main{width: 100%;
+height: auto;}
+.feeling{width: 100%;
+height: auto;}
+}
+@media only screen and (min-width: 900px){
+    main{width: 35%;
+    height: 69.2vh;}
+    img{width: 65%;}
+    hr{width: 50%;}
+    .name ul{font-size: small;}
+    .feeling{width: 50%;
+    clear: right;
+    margin-top: -49.5%;
+    height: 95vh;}
+    }
+@media only screen and (min-width: 1300px){
+    main{width: 35%;
+    height: 74vh;}
+    img{width: 65%;}
+    .name ul{font-size: medium;}
+    hr{width: 50%;}
+    .feeling{width: 50%;
+    clear: right;
+    margin-top: -45.2%;
+    height: 95vh;}
+    
+}

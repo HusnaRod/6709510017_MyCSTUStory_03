@@ -1,0 +1,133 @@
+h1{font-family: fantasy;
+   color:wheat;
+  }
+body{
+     background-color: rgba(5, 5, 79, 0.899);
+     color: aliceblue;
+    }
+h3{
+     font-family: fantasy;
+     color: black;
+     font-style: oblique;
+     background-color: #fff;
+     text-align: center;
+    }
+table{
+    margin: 10px;
+    border-collapse: collapse;
+    border: 1px solid ;
+    padding-bottom: 10px;
+    float: center;
+    padding: 20px;
+    font-size: small;
+    float: center;
+   background-color: #fff;
+   }
+
+nav {
+    background-color: rgb(28, 139, 183);
+    padding: 15px;
+    text-align: center;
+  }
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+main{
+  background-color: skyblue;
+    padding: 2%;
+    text-align: left;
+    width: 18%;
+    height: 117vh;
+    float: left;
+    position: static;
+    top: 0px;
+    bottom: 50px; 
+    display: inline-table;
+    
+}
+  img{
+  float: center;
+}
+.name{
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    
+}
+.video-contain{
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+footer {
+  background-color: rgb(28, 139, 183);
+  padding: 10px;
+  text-align: center;
+  clear: both;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+video{
+  background-color: #333;
+}
+.name p {
+  display: inline-table;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  background-color: skyblue; 
+}
+button{
+  background-color: skyblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+  text-align: center;
+  color: black;
+}
+* {
+  box-sizing: border-box;
+}
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 100px) {
+  .col-1 {width: 100%;}
+  .col-2 {width: 100%;}
+  main{width: 100%;
+  height: auto;}
+}
+@media only screen and (min-width: 768px){
+  .col-1 {width: 100%;}
+  .col-2 {width: 100%;}
+  body{height: auto;}
+  main{width: 25%;
+  height: auto;}
+}
+@media only screen and (min-width: 1026px){
+  .col-1 {width: 100%;}
+  .col-2 {width: 100%;}
+  main{height: 122vh;}
+  
+}

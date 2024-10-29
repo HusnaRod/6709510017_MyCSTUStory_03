@@ -1,0 +1,131 @@
+    body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    background-color: rgba(5, 5, 79, 0.899);
+    float: center;
+    }
+    p{color: white;
+    font-size: medium;
+    text-align: center;
+    }
+    nav {
+      background-color: rgb(28, 139, 183);
+      padding: 15px;
+      text-align: center;
+    }
+  nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  nav ul li {
+      display: inline-block;
+      margin: 0 20px;
+  }
+    h3{
+      background-color: skyblue;
+      width: 47%;
+      float: center;
+      text-align: center;
+      clear: right;
+    }
+    th{font-family: fantasy;
+     background-color: rgba(255, 255, 255, 0.893);
+    }
+    th p{
+      color: rgba(0, 0, 0, 0.603);
+    }
+    main{
+      background-color: skyblue;
+      width: 25%;
+      height: 78vh;
+      float: left;
+      position: static;
+      clear: left;
+      margin-top: -38%;
+      text-align: left;
+      font-family: sans-serif;
+    }
+    div{
+      background-color: skyblue;
+      text-align: left;
+      width: 25%;
+      height: 78vh;
+      float: right;
+      position: static;
+      clear: right;
+      margin-top: -38%;
+      font-family: sans-serif;
+    }
+    main ul p{
+      background-color: rgb(28, 139, 183);
+      color: black;
+      width: 90%;
+    }
+    div ul p{
+      background-color: rgb(28, 139, 183);
+      color: black;
+      width: 90%;
+    }
+    table tr th p img{
+      overflow: auto;
+      max-width: 30%;
+      display: inline;
+    }
+    #photo img{
+      overflow: auto;
+    }
+    p{
+      text-align: center;
+      color: black;
+    }
+    * {
+      box-sizing: border-box;}
+      @media only screen and (min-width: 100px) {
+        #photo img{
+          overflow: auto;
+          display: inline-table;
+          width: 80px;
+          height: auto;}
+          main{
+          width: 100%;
+          height: auto;
+          margin-top: 20px;
+        }
+          div{width: 100%;
+          height: auto;
+          overflow: auto;
+          display: inline-table;
+          clear: both;
+          display: flexbox;
+          margin-top: 20px;
+        }
+         .title{display: inline-table;}
+         p{font-size: small;}
+         h3{font-size: small;
+        width: 100%;}
+        nav ul li{
+          margin: 0 10px;
+          clear: both;
+          text-align: center;
+        }
+        nav ul{text-align: center;}
+      }
+      @media only screen and (min-width: 1000px){
+     main{width: 25%;
+         height: 78vh;
+         margin-top: -38.1%;}
+         div{width: 25%;
+        height: 78vh;
+      margin-top: -38.5%;}
+      p{font-size: larger;}
+      h3{font-size: large;}
+     #photo img{
+      width: 200px;
+      display: inline-table;
+      height: auto;
+     }
+     h3{width: 40%;
+    }
+      }
+   
